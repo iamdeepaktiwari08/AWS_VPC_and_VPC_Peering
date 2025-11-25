@@ -287,6 +287,5 @@ Expected:
 - Ping result Terminal
 - SG inbound rules
 
-📂 **Screenshots Folder:**  
- ![image alt](https://github.com/iamdeepaktiwari08/AWS_VPC_and_VPC_Peering/tree/main/screenshots
- ![image alt](https://github.com/iamdeepaktiwari08/AWS_VPC_and_VPC_Peering/blob/dfee89f9b3e33b480e0e0fd57fe03c8fe318b9a5/screenshots/01-vpc-list.png)
+### 📁 Screenshots Folder  
+👉 **https://github.com/iamdeepaktiwari08/AWS_VPC_and_VPC_Peering/tree/main/screenshots**
