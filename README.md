@@ -288,4 +288,4 @@ Expected:
 - SG inbound rules
 
 📂 **Screenshots Folder:**  
- !Limage alt](https://github.com/iamdeepaktiwari08/AWS_VPC_and_VPC_Peering/tree/main/screenshots)
+ ![image alt](https://github.com/iamdeepaktiwari08/AWS_VPC_and_VPC_Peering/tree/main/screenshots)
