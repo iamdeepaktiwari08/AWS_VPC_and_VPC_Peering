@@ -290,3 +290,52 @@ Expected:
 
 ### 📁 Screenshots Folder  
 👉 **https://github.com/iamdeepaktiwari08/AWS_VPC_and_VPC_Peering/tree/main/screenshots**
+
+---
+
+# 🧹 CLEAN-UP STEPS (Avoid Unwanted AWS Billing)
+
+After finishing the project, make sure you delete the following AWS resources to avoid charges:
+
+## 1️⃣ Delete EC2 Instances
+- Stop both instances (Prod & Test)
+- Terminate both instances
+
+## 2️⃣ Delete VPC Peering Connection
+- Go to VPC Console → Peering Connections
+- Select connection → Actions → Delete
+
+## 3️⃣ Delete Custom Route Entries
+- Go to Route Tables → Edit Routes
+- Remove peering routes
+- Save changes
+
+## 4️⃣ Delete Internet Gateways
+- Detach IGW from Test VPC
+- Detach IGW from Prod VPC
+- Delete IGWs
+
+## 5️⃣ Delete Subnets
+- Delete Test subnet
+- Delete Prod subnet
+
+## 6️⃣ Delete Route Tables
+- Delete both custom public route tables
+
+## 7️⃣ Finally Delete VPCs
+- Delete Test VPC
+- Delete Prod VPC
+
+---
+
+### ☑️ After removal, confirm:
+✔ No EC2 instances running  
+✔ No VPC peering connections  
+✔ No custom VPCs remaining  
+✔ No IGWs remaining  
+✔ No Route tables remaining
+
+---
+
+⚠️ *Important:*  
+Default VPC must **NOT** be deleted.
