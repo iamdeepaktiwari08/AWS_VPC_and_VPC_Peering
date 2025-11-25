@@ -39,6 +39,7 @@ AWS Region
 ├── Public Route Table
 └── EC2 Prod Instance
 
+![image alt](https://github.com/iamdeepaktiwari08/AWS_VPC_and_VPC_Peering/blob/main/screenshots/architecture.png)
 Connection between VPCs: **VPC Peering**
 
 Private connectivity validated by **ICMP (ping)**.
