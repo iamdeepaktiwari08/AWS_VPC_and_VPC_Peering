@@ -276,10 +276,6 @@ Expected:
 ✔ Replies  
 ✔ 0% packet loss  
 
----
-
----
-
 # 📸 Screenshots to Include
 
 - VPC list
@@ -288,6 +284,8 @@ Expected:
 - IGWs
 - VPC Peering page
 - EC2 Instances list
-- SG inbound rules
 - Ping result Terminal
+- SG inbound rules
 
+📂 **Screenshots Folder:**  
+👉 https://github.com/iamdeepaktiwari08/AWS_VPC_and_VPC_Peering/tree/main/screenshots
